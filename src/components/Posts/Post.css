@@ -1,0 +1,72 @@
+.post__personal {
+  display: flex;
+  align-items: center;
+}
+.post__personal > img {
+  width: 60px;
+  height: 60px;
+  border-radius: 99px;
+  margin-right: 10px;
+  align-items: center;
+}
+.postPersonal__details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.name__username > p {
+  line-height: 0;
+}
+.name__username > h5 {
+  font-weight: 600;
+  font-size: 17px;
+}
+.name__username {
+  margin-right: 30px;
+}
+.post__area {
+  font-family: "Open Sans", sans-serif;
+}
+.post__area > p {
+  font-weight: 200;
+  margin-top: 10px;
+  font-size: 15px;
+}
+.post__area > img {
+    width: 100%;
+    object-fit: contain;
+    /* height: ; */
+}
+.post__actions {
+  display: flex;
+  /* align-items: center; */
+  /* margin-top: 10px; */
+  margin-bottom: 10px;
+  justify-content: space-evenly;
+}
+.post__actions > span:hover {
+  /* margin-right: 100px; */
+  cursor: pointer;
+}
+.post__date {
+    font-size: 15px;
+    text-align: right;
+    margin-top: 10px;
+}
+.post {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.fa-heart {
+  color: #be0000;
+}
+.fa-share-alt {
+  color: #21209c;
+}
+.account__icon {
+  width: 40px !important;
+  height: 40px !important;
+  margin-right: 10px;
+}

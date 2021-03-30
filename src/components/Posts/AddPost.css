@@ -1,0 +1,39 @@
+textarea {
+    background: white !important;
+    outline: none !important;
+    border: none !important;
+    overflow: hidden; word-wrap: break-word; resize: none; height: 74px;
+}
+textarea:focus {
+    outline: none;
+    box-shadow: inset 0 -1px 0 #ddd !important;
+    border-bottom: none;
+}
+.post__form {
+    background: white;
+}
+
+.add__post {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.post__option {
+    display: flex;
+    
+}
+.post__option > i {
+    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+button {
+    background: #21209c !important;
+    color: #fff !important;
+    /* margin-top: 20rem; */
+    /* display: none !important; */
+}
+.textarea:focus + button {
+    display: inline-block !important;
+}

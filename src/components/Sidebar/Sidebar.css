@@ -1,0 +1,45 @@
+.profile > img {
+    object-fit: contain;
+    width: 100px;
+    border-radius: 99px;
+}
+.profile {
+    /* text-align: center; */
+    padding: 0 40px;
+    /* border: 1px solid gray; */
+}
+.profile__name h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.profile__name p {
+    line-height: 0;
+    font-size: 13px;
+    color: gray;
+}
+.profile__stats,
+.profile__connection {
+    margin-top: 40px;
+    line-height: 15px;
+    color: gray;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.profile__stats p,
+.profile__connection p {
+    padding: 5px;
+}
+
+.profile__stats p:hover,
+.profile__connection p:hover {
+    background: whitesmoke;
+    border-radius: 10px;
+    color: #000;
+    cursor: pointer;
+}
+.user__icon {
+    width: 60px;
+    height: 60px;
+}
